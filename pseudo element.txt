@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <title>Document</title>
+        <style>
+            .mike {
+                color: blue;
+            }
+            .mike::first-letter {
+                font-size: 40px;
+            }
+
+            .mike::before {
+                content: '?';
+            }
+
+            .mike::after {
+                content: '?';
+            }
+
+            .smile::after {
+                content: '😀';
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="mike smile">TestMike</div>
+    </body>
+</html>

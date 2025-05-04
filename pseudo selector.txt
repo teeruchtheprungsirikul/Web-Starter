@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <title>Document</title>
+        <style>
+            .button {
+                background-color: gray;
+                border: 0;
+                padding: 20px;
+            }
+
+            .button:hover {
+                background-color: blue;
+            }
+
+            .button:active {
+                background-color: orange;
+            }
+
+            .button:focus {
+                background-color: red;
+            }
+
+            input:focus {
+            background-color: orange;
+            }
+
+            .container .item:first-child {
+                background-color: blue;
+            }
+
+            .container .item:nth-child(2) {
+                background-color: red;
+            }
+
+            .container .item:last-child {
+                background-color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- :hover = วาง, :active = คลิก,:focus = cursor-->
+        <input type="text">
+        <button class="button">นี่คือปุ่ม</button>
+
+        <div class="container">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+        </div>
+    </body>
+</html>

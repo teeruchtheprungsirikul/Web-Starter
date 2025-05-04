@@ -1,0 +1,5 @@
+https://gitlab.com/cckcoder/gitlab-cicd/-/blob/main/lesson1_git_basic.md?ref_type=heads
+https://codeshare.io/5RAAj2
+https://gitlab.com/cckcoder/gitlab-cicd/-/blob/main/gitlab-pipeline.yml?ref_type=heads
+https://gitlab.com/cckcoder/todo_api
+https://gitlab.com/cckcoder/gitlab-cicd

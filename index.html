@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document2</title>
-    <link rel="stylesheet" href="styles.css" type="text/javascript">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!--ส่วนที่แสดงออกไปในหน้าจอของ Browser-->
 
+    <a href="user.html">go to user management</a>
     <div class="container">
     <!--3. form-->
         <div class="header form-input">
@@ -64,10 +65,13 @@
         <div class="form-input center">
             <a href="https://shopee.com">T&C</a>
         </div>
+        <div id="message" class="message"></div>
         <div class="center">
             <button onclick="submitData()" class="button" type="submit">ส่งข้อมูล</button>
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="index.js"></script>
 </body>
 </html>

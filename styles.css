@@ -49,8 +49,25 @@ input.form, textarea {
     border: 0;
     width: 50%;
     height: 40px;
-    background-color: #D50000;
+    background-color: blue;
     color: white;
+}
+
+.message {
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.message.success {
+    background-color: lightgreen;
+    display: block;
+}
+
+.message.danger {
+    background-color: lightcoral;
+    display: block;
 }
 
 @media screen and (max-width: 768px) {

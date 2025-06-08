@@ -3,6 +3,9 @@ bin-debug/
 bin-release/
 [Oo]bj/
 [Bb]in/
+server/node_modules
+server/package-lock.json
+server/package.json
 
 # Other files and folders
 .settings/
